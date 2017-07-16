@@ -1,0 +1,16 @@
+
+// ==========================================
+//
+// 		Шаблон спрайта
+//
+// ==========================================
+
+@import "sprite-coords.styl"
+
+sprite($sprite, cof = 100)
+    display inline-block
+    width ( ( ($sprite[4] * cof) / 100) / 10 )rem
+    height ( ( ($sprite[5] * cof) / 100) / 10 )rem
+    background-image url(../img/$sprite[8])
+    background-position ( ( ($sprite[2] * cof) / 100) / 10 )rem ( ( ($sprite[3] * cof) / 100) / 10 )rem
+    background-size ( ( ($sprite[6] * cof) / 100) / 10 )rem ( ( ($sprite[7] * cof) / 100) / 10 )rem

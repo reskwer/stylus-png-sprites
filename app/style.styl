@@ -9,23 +9,45 @@ html
 body
 	font-size 1.6rem
 	width 90rem
+	height 400vh
 	margin 0 auto
 	text-align center
 	padding-top 2rem
 
+.block1
+	margin 4rem 0 1rem
 
 
 
+// Обычный вариант
 .icon1
-	sprite(a3, 100%)
-
-.icon2
-	sprite(a4, 25%)
+	sprite(img-50x50)
 	
+
+// Спрайт x4 масштабированы на 25%
+.icon2
+	sprite(img-200x200, 25%)
+
+
+// Как выглядит на ретина x4
 .icon3
-	sprite(a3, 400%)
+	sprite(img-50x50, 400%)
 
 .icon4
-	sprite(a4, 100%)
+	sprite(img-200x200, 100%)
 
+
+// Пример масштабирования при ховере
+.icon5
+	transition all .4s
+	sprite(img-50x50)
 	
+	&:hover
+		sprite(img-50x50, 400%)
+	
+.icon6
+	transition all .4s
+	sprite(img-200x200, 25%)
+	
+	&:hover
+		sprite(img-200x200, 100%)

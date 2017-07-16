@@ -4,39 +4,77 @@ html {
 body {
   font-size: 1.6rem;
   width: 90rem;
+  height: 400vh;
   margin: 0 auto;
   text-align: center;
   padding-top: 2rem;
+}
+.block1 {
+  margin: 4rem 0 1rem;
 }
 .icon1 {
   display: inline-block;
   width: 5rem;
   height: 5rem;
   background-image: url("../img/png-sprite.png");
-  background-position: 0rem -26.4rem;
-  background-size: 46.4rem 31.4rem;
+  background-position: -20.8rem 0rem;
+  background-size: 25.8rem 20rem;
 }
 .icon2 {
   display: inline-block;
   width: 5rem;
   height: 5rem;
   background-image: url("../img/png-sprite.png");
-  background-position: -6.6rem 0rem;
-  background-size: 11.6rem 7.85rem;
+  background-position: 0rem 0rem;
+  background-size: 6.45rem 5rem;
 }
 .icon3 {
   display: inline-block;
   width: 20rem;
   height: 20rem;
   background-image: url("../img/png-sprite.png");
-  background-position: 0rem -105.6rem;
-  background-size: 185.6rem 125.6rem;
+  background-position: -83.2rem 0rem;
+  background-size: 103.2rem 80rem;
 }
 .icon4 {
   display: inline-block;
   width: 20rem;
   height: 20rem;
   background-image: url("../img/png-sprite.png");
-  background-position: -26.4rem 0rem;
-  background-size: 46.4rem 31.4rem;
+  background-position: 0rem 0rem;
+  background-size: 25.8rem 20rem;
+}
+.icon5 {
+  transition: all 0.4s;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  background-image: url("../img/png-sprite.png");
+  background-position: -20.8rem 0rem;
+  background-size: 25.8rem 20rem;
+}
+.icon5:hover {
+  display: inline-block;
+  width: 20rem;
+  height: 20rem;
+  background-image: url("../img/png-sprite.png");
+  background-position: -83.2rem 0rem;
+  background-size: 103.2rem 80rem;
+}
+.icon6 {
+  transition: all 0.4s;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  background-image: url("../img/png-sprite.png");
+  background-position: 0rem 0rem;
+  background-size: 6.45rem 5rem;
+}
+.icon6:hover {
+  display: inline-block;
+  width: 20rem;
+  height: 20rem;
+  background-image: url("../img/png-sprite.png");
+  background-position: 0rem 0rem;
+  background-size: 25.8rem 20rem;
 }
